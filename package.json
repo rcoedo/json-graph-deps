@@ -1,0 +1,9 @@
+{
+  "name": "json-graph-deps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "fast-glob": "2.2.7"
+  }
+}
