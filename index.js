@@ -23,7 +23,7 @@ const buildGraph = async ({ cwd = ".", ignored = [] }) => {
   const g = graph();
 
   entries.forEach(file => {
-    const pkgJson = require(path.join(cwd, file));
+    const pkgJson = require(path.join(process.cwd(), cwd, file));
 
     if (pkgJson.name && pkgJson.version) {
       const pkgName = toName(pkgJson.name, pkgJson.version);
