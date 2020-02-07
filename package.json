@@ -1,8 +1,13 @@
 {
   "name": "json-graph-deps",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "index.js",
   "license": "MIT",
+  "author": "Roman Coedo <rcoedo@nibelheim.es>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rcoedo/json-graph-deps-cli"
+  },
   "dependencies": {
     "fast-glob": "2.2.7"
   }
